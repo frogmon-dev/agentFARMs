@@ -1,0 +1,164 @@
+{
+  "토마토": {
+    "day": {
+      "highlimit": 35,
+      "upto": 25,
+      "downto": 20
+    },
+    "night": {
+      "lowlimit": 5,
+      "upto": 13,
+      "downto": 8
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 18,
+      "downto": 15
+    }
+  },
+  "가지": {
+    "day": {
+      "highlimit": 35,
+      "upto": 28,
+      "downto": 23
+    },
+    "night": {
+      "lowlimit": 10,
+      "upto": 18,
+      "downto": 13
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 20,
+      "downto": 18
+    }
+  },
+  "피망(고추)": {
+    "day": {
+      "highlimit": 35,
+      "upto": 30,
+      "downto": 25
+    },
+    "night": {
+      "lowlimit": 12,
+      "upto": 20,
+      "downto": 15
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 20,
+      "downto": 18
+    }
+  },
+  "오이": {
+    "day": {
+      "highlimit": 35,
+      "upto": 28,
+      "downto": 23
+    },
+    "night": {
+      "lowlimit": 8,
+      "upto": 15,
+      "downto": 10
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 20,
+      "downto": 18
+    }
+  },
+  "수박": {
+    "day": {
+      "highlimit": 35,
+      "upto": 28,
+      "downto": 23
+    },
+    "night": {
+      "lowlimit": 10,
+      "upto": 18,
+      "downto": 13
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 20,
+      "downto": 18
+    }
+  },
+  "참외": {
+    "day": {
+      "highlimit": 35,
+      "upto": 25,
+      "downto": 20
+    },
+    "night": {
+      "lowlimit": 8,
+      "upto": 15,
+      "downto": 10
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 18,
+      "downto": 15
+    }
+  },
+  "멜론": {
+    "day": {
+      "highlimit": 35,
+      "upto": 30,
+      "downto": 25
+    },
+    "night": {
+      "lowlimit": 15,
+      "upto": 18,
+      "downto": 13
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 18,
+      "downto": 15
+    }
+  },
+  "호박": {
+    "day": {
+      "highlimit": 35,
+      "upto": 25,
+      "downto": 20
+    },
+    "night": {
+      "lowlimit": 8,
+      "upto": 15,
+      "downto": 10
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 18,
+      "downto": 15
+    }
+  },
+  "딸기": {
+    "day": {
+      "highlimit": 30,
+      "upto": 23,
+      "downto": 18
+    },
+    "night": {
+      "lowlimit": 3,
+      "upto": 10,
+      "downto": 5
+    },
+    "land": {
+      "highlimit": 25,
+      "lowlimit": 13,
+      "upto": 18,
+      "downto": 15
+    }
+  }
+}
