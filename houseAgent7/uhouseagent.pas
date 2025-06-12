@@ -1432,7 +1432,10 @@ end;
 function TfrmMain.getJsonValueStr(jData: TJSONData; section: String; def: String): String;
 begin
   try
-    result := TJSONObject(section).Get(section);
+    if Assigned(jData) and (jData.JSONType = jtObject) then
+      result := TJSONObject(jData).Get(section, def)
+    else
+      result := def;
   except
     result := def;
   end;
@@ -1442,7 +1445,10 @@ function TfrmMain.getJsonValueInt(jData: TJSONData; section: String;
   def: Integer): Integer;
 begin
   try
-    result := TJSONObject(section).Get(section);
+    if Assigned(jData) and (jData.JSONType = jtObject) then
+      result := TJSONObject(jData).Get(section, def)
+    else
+      result := def;
   except
     result := def;
   end;
@@ -1453,12 +1459,18 @@ function TfrmMain.getJsonStrValue(strData: String; section: String; def: String
 var
   jData: TJSONData;
 begin
+  jData := nil;
   try
     jData  := GetJson(strData);
-    result := TJSONObject(jData).Get(section);
+    if Assigned(jData) and (jData.JSONType = jtObject) then
+      result := TJSONObject(jData).Get(section, def)
+    else
+      result := def;
   except
     result := def;
   end;
+  if Assigned(jData) then
+    jData.Free;
 end;
 
 procedure TfrmMain.showRemoteControlMode();
